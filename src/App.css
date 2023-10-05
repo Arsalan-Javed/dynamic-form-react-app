@@ -1,0 +1,19 @@
+label {
+    font-size: .9rem;
+    text-transform: capitalize;
+  }
+  
+  input.form-control, input.form-control:focus, textarea.form-control, textarea.form-control:focus, select.form-control, select.form-control:focus {
+    background: #F0F0FF;
+  }
+  
+  .error {
+    position: absolute;
+    color: red;
+    font-size: .6rem;
+  }
+
+  .field-name{
+    display: inline-block;
+    margin-right: 10px;
+  }
