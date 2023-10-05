@@ -1,4 +1,4 @@
-# dynamic-form-react-app
+# Dynamic Form React App
  dynamic form react app as a coding challange
 
  run ```npm i``` to install app dependiencies 
