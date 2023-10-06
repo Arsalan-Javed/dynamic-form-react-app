@@ -1,5 +1,5 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
-import { data } from "../components/field-set";
+import { data } from "../pages/field-set";
 
 export const INITIAL_STATE: any = {};
 

@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import DynamicForm from "./components/dynamic-form";
-import ThankyouPage from "./components/ThankyouPage";
+import DynamicForm from "./pages/DynamicForm/dynamic-form";
+import ThankyouPage from "./pages/ThankyouPage";
 
 function App() {
   return (
