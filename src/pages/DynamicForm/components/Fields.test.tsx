@@ -1,9 +1,10 @@
 /**
  * @jest-environment jsdom
  */
+import '@testing-library/jest-dom';
+import React from 'react';
 
-import React from 'react'
-
+global.React = React;
 import {
   render,
   fireEvent,
