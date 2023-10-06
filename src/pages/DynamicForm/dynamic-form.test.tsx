@@ -1,3 +1,9 @@
+/**
+ * @jest-environment jsdom
+ */
+
+import React from 'react'
+
 import { fireEvent, render, waitFor } from "@testing-library/react";
 import DynamicForm from "./dynamic-form";
 import store from "../../app/store";

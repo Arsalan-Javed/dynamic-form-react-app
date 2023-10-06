@@ -27,7 +27,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test-jest": "jest  --coverage"
   },
   "eslintConfig": {
     "extends": [
@@ -60,9 +61,15 @@
     ]
   },
   "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "html"
+    ],
     "coveragePathIgnorePatterns": [
       "src/index.tsx",
       "src/reportWebVitals.ts"
-    ]
+    ],
+    "testEnvironment": "jsdom"
   }
 }
